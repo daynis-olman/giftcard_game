@@ -1,5 +1,5 @@
 # Giftcard Game</br>
-Catch as many JB HiFi giftcards as you possibly can without getting scammed! the versions of the installed packages and modules for security and vunerability management purposes</br></br>
+Catch as many JB HiFi giftcards as you possibly can without getting scammed.</br></br>
 <img src="sprites/game-demo.gif"></br>
 
 ## The rules
