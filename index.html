@@ -7,14 +7,14 @@
     <script type="module">
 
         // import libraries
-        import kaboom from "/js/assetlib.js";
+        import kaboom from "https://daynis-olman.github.io/giftcard_game/js/assetlib.js";
 
         async function init() {
 
             kaboom()
-            let bgImage = await loadSprite("background", "/backgrounds/hns_background.png");
-            let startBgImage = await loadSprite("start-background", "/backgrounds/start_background.jpeg");
-            let endBgImage = await loadSprite("end-background", "/backgrounds/end_background.jpg");
+            let bgImage = await loadSprite("background", "https://daynis-olman.github.io/giftcard_game/backgrounds/hns_background.png");
+            let startBgImage = await loadSprite("start-background", "https://daynis-olman.github.io/giftcard_game/backgrounds/start_background.jpeg");
+            let endBgImage = await loadSprite("end-background", "https://daynis-olman.github.io/giftcard_game/backgrounds/end_background.jpg");
 
 
             const scams = [
@@ -25,13 +25,13 @@
             ]
 
             for (const scam of scams) {
-                loadSprite(scam, `sprites/${scam}.png`)
+                loadSprite(scam, `https://daynis-olman.github.io/giftcard_game/sprites/${scam}.png`)
             }
 
-            loadSprite("bean", "/sprites/dan.png")
-            loadSprite("giftcard", "/sprites/jb-giftcard.png")
-            loadSound("hit", "/sounds/hit.mp3")
-            loadSound("wooosh", "/sounds/wooosh.mp3")
+            loadSprite("bean", "https://daynis-olman.github.io/giftcard_game/sprites/dan.png")
+            loadSprite("giftcard", "https://daynis-olman.github.io/giftcard_game/sprites/jb-giftcard.png")
+            loadSound("hit", "https://daynis-olman.github.io/giftcard_game/sounds/hit.mp3")
+            loadSound("wooosh", "https://daynis-olman.github.io/giftcard_game/sounds/wooosh.mp3")
 
             scene("start", () => {
 
